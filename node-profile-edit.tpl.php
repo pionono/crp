@@ -7,10 +7,6 @@ drupal_set_title(t('Modifica profilo'));
 	print drupal_render($form['field_nato_a']);	
 	print drupal_render($form['field_data_nascita']);
 
-
-
-
-
 // campi della residenza
 	echo ('<div class="label_form">Residenza</div>');
 	
@@ -437,8 +433,16 @@ drupal_set_title(t('Modifica profilo'));
 echo drupal_render($form['timezone']);
 echo drupal_render($form['form_build_id']);
 echo drupal_render($form['form_id']);
+echo drupal_render($form['form_token']);
 
+$form['submit'] = array(
+  '#type' => 'submit',
+  '#value' => t('Save'),
+);
+
+	echo '<div style="clear: both">';
 	print drupal_render($form['submit']);
+	echo '</div">';
 
 
 

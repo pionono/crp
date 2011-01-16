@@ -33,10 +33,10 @@ function crp_theme($existing, $type, $theme, $path) {
         'arguments' => array('form' => NULL),
         'template' => 'user-register'
     ),
-   'profile__node_form' => array(
+    'profile_node_form' => array(
         'arguments' => array('form' => NULL),
-        'template' => 'node--profile-edit'
-    )
+        'template' => 'node-profile-edit'
+    ),
   );
 }
 
