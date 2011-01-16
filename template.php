@@ -27,5 +27,20 @@ function crp_breadcrumb($breadcrumb) {
   }
 }
 
+function crp_theme($existing, $type, $theme, $path) {
+  return array(
+    'user_register' => array(
+        'arguments' => array('form' => NULL),
+        'template' => 'user-register'
+    ),
+   'profile__node_form' => array(
+        'arguments' => array('form' => NULL),
+        'template' => 'node--profile-edit'
+    )
+  );
+}
+
+
+
 
 ?>

@@ -1017,7 +1017,8 @@ body{  margin:1.44em auto 0em auto; line-height:1.45em; color:#000000;/*font-siz
 	width: 400px;
 }
 
-form#user-login-form #edit-name-wrapper, form#user-login-form #edit-pass-wrapper {
+form#user-login-form #edit-name-wrapper, form#user-login-form #edit-pass-wrapper,
+form#node-form #edit-name-wrapper, form#node-form #edit-pass-wrapper {
 	float: left;
 	/*width: 176px;*/
 	margin-right: 16px;
@@ -1036,7 +1037,7 @@ form#user-login-form label{
 	font-weight: normal;
 }
 
-form#user-login-form .form-item input{
+form#user-login-form .form-item input, form#node-form .form-item input{
 	width: 170px;
 	border: 1px solid #cccccc;	
 }
@@ -1051,25 +1052,16 @@ form#user-login-form ul {
 	clear: both;
 }
 
-/**/
+/* user register */
 
-form#user-register .form-item, .node-type-profile .node-form .form-item
-{
+form#user-register .form-item, .node-type-profile .node-form .form-item, form#node-form .form-item {
 	float: left;
-	width: 220px;
+	width: 160px;
 	margin-right: 16px;		
 }
 
-
 form#user-register #edit-name-wrapper, .node-type-profile .node-form #edit-name-wrapper {
 	clear: left;
-}
-
-
-form#user-register label, .node-type-profile .node-form label, {
-	font-weight: normal;
-	width: 170px;	
-	margin-right: 16px;
 }
 
 form#user-register .date-clear-block {
@@ -1077,57 +1069,43 @@ form#user-register .date-clear-block {
 	clear: none;
 }
 
-/* clear left - a capo */
+#edit-field-cognome-0-value {
+	width: 250px;
+}
 
-#edit-field-nato-a-0-value-wrapper, #edit-field-mandataria-dell-ati-0-value-wrapper,
-#edit-field-cod-fis-mandataria-0-value-wrapper {
-	clear: left;
+#edit-field-data-nascita-0-value-datepicker-popup-0 {
+	width: 160px;
 }
 
 /* clear right */
 
-#edit-field-mandataria-dell-ati-0-value-wrapper label,
-#edit-field-mandataria-dell-ati-0-value-wrapper input.form-text {
-	clear: both;
-	width: 500px;
-	
-}
 
-#edit-field-iscrizione-cciaa-0-value-wrapper {
-	clear: right;
-	display: block;
-}
 
-#edit-field-iscrizione-cciaa-0-value-wrapper input {
-	width: 220px;
-}
 
-#edit-field-data-nascita-0-value-wrapper input {
-    width: 220px;
-}
 
-edit-field-via-residenza-0-value-wrapper input {
-	width: 300px;
-}
 
 div.admin {
 	display: block;
 	clear: both;
 }
 
-#edit-field-dati-cciaa-0-value {
-	width: 220px;
-}
-
-#edit-field-province4-value-wrapper select{
-	width: 220px;
-}
 
 div.etichette {
 	font-size: 14px;
 	color: #004272;	
 	clear: both;
 	display: block;
+}
+
+div.label_form {
+	color: #004272;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;	
+	display: block;
+	clear: both;
+	margin-top: 30px;
+	padding-top: 30px;
 }
 
 form#user-register input.form-submit {
@@ -1145,6 +1123,12 @@ form#user-register input.form-submit {
 form#user-register .form-item input, .node-type-profile .node-form .form-item input{	
 	border: 1px solid #cccccc;
 }
+
+form#user-register .form-item select, .node-type-profile .node-form .form-item select{	
+	width: 160px;	
+}
+
+
 
 form#user-register #edit-mail-wrapper, .node-type-profile  #edit-mail-wrapper {
 	clear: right;

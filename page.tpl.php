@@ -152,7 +152,7 @@
         <div id="footer-message" class="footer-message row <?php print $grid_width; ?>">
           <div id="footer-message-inner" class="footer-message-inner inner clearfix">
             <?php print theme('grid_block', $footer_message, 'footer-message-text'); ?>
-		<!-- --------------- >
+		<!--  -->
 <div id="Coda"> 
         <div class="superiore"> 
           <a href="http://www.regione.sardegna.it/contattaci.html" title="Vai alla pagina: contattaci" target="_blank">contattaci </a> 
@@ -183,7 +183,7 @@
       </div> 
 
 
-<!-- --------------- >
+
 
           </div><!-- /footer-message-inner -->
         </div><!-- /footer-message -->
