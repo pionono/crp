@@ -33,8 +33,8 @@ print $rendered;
 
 
 
-echo '<div style="font-size: 10px; font-weight: bold; margin-top: 10px;"><a href="../user/register/">Crea nuovo profilo</a></div>
-    <div style="font-size: 10px; font-weight: bold;"><a href="../user/password/">Richiedi una nuova password</a></div>';
+echo '<div style="font-size: 10px; font-weight: bold; margin-top: 10px;"><a href="https://www.regione.sardegna.it/rasrl2010/user/register/">Crea nuovo profilo</a></div>
+    <div style="font-size: 10px; font-weight: bold;"><a href="https://www.regione.sardegna.it/rasrl2010/user/password/">Richiedi una nuova password</a></div>';
 
 
 echo drupal_render($form['timezone']);
