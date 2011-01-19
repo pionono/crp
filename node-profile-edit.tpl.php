@@ -440,6 +440,11 @@ $form['submit'] = array(
   '#value' => t('Save'),
 );
 
+$form['submit'] = array(
+  '#type' => 'submit',
+  '#value' => t('Save'),
+);
+
 	echo '<div style="clear: both">';
 	print drupal_render($form['submit']);
 	echo '</div">';

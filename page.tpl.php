@@ -156,7 +156,7 @@
 <div id="Coda"> 
         <div class="superiore"> 
           <a href="http://www.regione.sardegna.it/contattaci.html" title="Vai alla pagina: contattaci" target="_blank">contattaci </a> 
-          <div class="bloccofooterdx"><a rel="blankcc" href="http://www.regione.sardegna.it/disclaimer.html" target="_blank"><img alt="Creative Commons License" title="Creative Commons License" src="http://www.regione.sardegna.it/img/cc.gif"/></a>&nbsp;2011&nbsp;Regione Autonoma della<a title="Ricarica la pagina" class="none" href="http://www.regione.sardegna.it/j/v/27?&amp;s=1&amp;v=3&amp;c=2&amp;n=20&amp;nchr=300" target="_blank">&nbsp;</a>Sardegna</div> 
+          <div class="bloccofooterdx"><a rel="blankcc" href="http://www.regione.sardegna.it/disclaimer.html" target="_blank"><img alt="Creative Commons License" title="Creative Commons License" src="https://www.regione.sardegna.it/img/cc.gif"/></a>&nbsp;2011&nbsp;Regione Autonoma della Sardegna</div> 
         </div> 
         <div class="inferiore"> 
           <ul> 

@@ -37,9 +37,30 @@ function crp_theme($existing, $type, $theme, $path) {
         'arguments' => array('form' => NULL),
         'template' => 'node-profile-edit'
     ),
+
+    'soggetto_node_form' => array(
+        'arguments' => array('form' => NULL),
+        'template' => 'node-soggetto-edit'
+    ),
+
+    'user_login' => array(
+        'arguments' => array('form' => NULL),
+        'template' => 'user-login'
+    ),
+
   );
 }
 
+function mytheme_theme(&$existing, $type, $theme, $path) {
+  
+}
+
+function crp_preprocess_user_login(&$variables) {
+  $variables['form']['name']['#description'] = t('');
+  $variables['form']['pass']['#description'] = t('');
+  $variables['rendered'] = drupal_render($variables['form']);
+  $variables['form']['name']['#title'] = t('Accesso al servizio');
+}
 
 
 

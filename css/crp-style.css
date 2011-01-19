@@ -491,7 +491,7 @@ div.content-help div.help {
 	background: none;
 	padding: 0px;
 	margin: 0px;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 11px;;
 }
 
@@ -510,7 +510,11 @@ div.content-messages-inner div.warning {
 
 /* Error messages: red */
 div.content-messages-inner div.error {
-	color: #000000;	
+	color: #e00000;	
+}
+
+input.error {
+	color: #000000;
 }
 
 /* Help messages: blue */
@@ -1018,12 +1022,16 @@ body{  margin:1.44em auto 0em auto; line-height:1.45em; color:#000000;/*font-siz
 }
 
 form#user-login-form #edit-name-wrapper, form#user-login-form #edit-pass-wrapper,
-form#node-form #edit-name-wrapper, form#node-form #edit-pass-wrapper {
+form#node-form #edit-name-wrapper, form#node-form #edit-pass-wrapper,
+form#user-login #edit-name-wrapper, form#user-login #edit-pass-wrapper {
 	float: left;
 	/*width: 176px;*/
-	margin-right: 16px;
-	
-		
+	margin-right: 16px;		
+}
+
+form#user-login #edit-submit {
+	clear: left;
+	display: block;
 }
 
 form#user-login-form a {
@@ -1037,7 +1045,7 @@ form#user-login-form label{
 	font-weight: normal;
 }
 
-form#user-login-form .form-item input, form#node-form .form-item input{
+form#user-login-form .form-item input, form#node-form .form-item input, form#user-login .form-item input{
 	width: 170px;
 	border: 1px solid #cccccc;	
 }
