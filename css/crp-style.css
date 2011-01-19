@@ -1061,7 +1061,7 @@ form#user-login-form ul {
 }
 
 /* user register */
-
+/*
 form#user-register .form-item, .node-type-profile .node-form .form-item, form#node-form .form-item {
 	float: left;
 	width: 160px;
@@ -1088,7 +1088,7 @@ form#user-register .date-clear-block {
 /* clear right */
 
 
-
+*/
 
 
 
@@ -1115,7 +1115,7 @@ div.label_form {
 	margin-top: 30px;
 	padding-top: 30px;
 }
-
+/*
 form#user-register input.form-submit {
   padding-left: 2px; padding-right: 2px;
   font-weight: normal;
@@ -1161,7 +1161,7 @@ form#user-pass #edit-name {
 
 
 	/*clear: left;*/
-
+*/
 /* mostra profilo */
 
 div.content-profile-display {
