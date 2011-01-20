@@ -10,9 +10,9 @@ function crp_breadcrumb($breadcrumb) {
 
   	$counter = 0;
   	foreach ($breadcrumb as $id => $crumb) {
-  		$length_value = 110- $counter;
+  		$length_value = 90 - $counter;
   		$counter += strlen(strip_tags($crumb));
-  		if ($counter > 110) {
+  		if ($counter > 90) {
   			if ($done) {
   				unset($breadcrumb[$id]);
   			}else{
@@ -33,10 +33,10 @@ function crp_theme($existing, $type, $theme, $path) {
         'arguments' => array('form' => NULL),
         'template' => 'user-register'
     ),
-  /*  'profile_node_form' => array(
+    'profile_node_form' => array(
         'arguments' => array('form' => NULL),
         'template' => 'node-profile-edit'
-    ),*/
+    ),
 
     'soggetto_node_form' => array(
         'arguments' => array('form' => NULL),
@@ -47,11 +47,12 @@ function crp_theme($existing, $type, $theme, $path) {
         'arguments' => array('form' => NULL),
         'template' => 'user-login'
     ),
-    'page_node_form' => array(
-        'arguments' => array('form' => NULL),
-        'template' => 'node-page-edit'
-    ),
+
   );
+}
+
+function mytheme_theme(&$existing, $type, $theme, $path) {
+  
 }
 
 function crp_preprocess_user_login(&$variables) {
@@ -60,5 +61,7 @@ function crp_preprocess_user_login(&$variables) {
   $variables['rendered'] = drupal_render($variables['form']);
   $variables['form']['name']['#title'] = t('Accesso al servizio');
 }
+
+
 
 ?>

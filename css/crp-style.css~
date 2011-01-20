@@ -1074,104 +1074,101 @@ form#user-login-form ul {
 
 /* user register */
 
-.mandataria .form-item {
+form#user-register .form-item, .node-type-profile .node-form .form-item, form#node-form .form-item {
 	float: left;
-	width: 200px;
+	width: 160px;
 	margin-right: 16px;		
 }
 
-.mandataria #edit-name-wrapper {
+form#user-register #edit-name-wrapper, .node-type-profile .node-form #edit-name-wrapper {
 	clear: left;
 }
 
-.mandataria #edit-mail-wrapper {
-	clear: left;
-}
-
-.mandataria .date-clear-block {
+form#user-register .date-clear-block {
 	display: inline;
-	clear: left;
+	clear: none;
+}
+
+#edit-field-cognome-0-value {
+	width: 250px;
+}
+
+#edit-field-data-nascita-0-value-datepicker-popup-0 {
+	width: 160px;
+}
+
+/* clear right */
+
+
+
+
+
+
+div.admin {
+	display: block;
+	clear: both;
 }
 
 
-.mandataria #edit-field-data-nascita-0-value-datepicker-popup-0 {
-	width: 200px;
+div.etichette {
+	font-size: 14px;
+	color: #004272;	
+	clear: both;
+	display: block;
 }
 
-/*form#user-register input.form-submit {
+div.label_form {
+	color: #004272;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;	
+	display: block;
+	clear: both;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+form#user-register input.form-submit {
   padding-left: 2px; padding-right: 2px;
   font-weight: normal;
   font-size: 11px;
   margin: 0px;
   display: block;
   clear: both;
-}*/
-
-
-.mandataria #edit-field-in-qualita-di-value-Legale-Rappresentante-wrapper {
-	width: 300px;
-}
-
-.mandataria #edit-field-city3-value-wrapper {
-	float: left;
-}
-
-.mandataria .form-item select {	
-	width: 200px;	
-}
-
-.mandataria #edit-submit {
-	clear: both;
 }
 
 
-.mandataria #edit-mail-wrapper {
+
+
+form#user-register .form-item input, .node-type-profile .node-form .form-item input{	
+	border: 1px solid #cccccc;
+}
+
+form#user-register .form-item select, .node-type-profile .node-form .form-item select{	
+	width: 160px;	
+}
+
+
+
+form#user-register #edit-mail-wrapper, .node-type-profile  #edit-mail-wrapper {
 	clear: right;
 }
 
-.mandataria .description {
+form#user-register .description, .node-type-profile .node-form .description {
 	color: #a5a5a5;
 }
 
-.mandataria .form-item label {
+.form-item label {
 	font-weight: normal;
 }
 
-.mandataria .fallback-button-wrapper {
-	clear: none;
-	float: left;
-	display: none;
+form#user-pass #edit-name {
+	width: 176px;
 }
 
-.mandataria .group-sede-legale, .mandataria .group-dati-cciaa, .mandataria .group-sede-operativa, .mandataria .group-residenza {
+.group-sede-legale, .group-dati-cciaa, .group-sede-operativa, .group-residenza {
 	display: block;
 	clear: both;
-}
-
-.mandataria #field_province3-ahah-wrapper {
-	clear: none;
-	display: inline;
-}
-
-.mandataria #edit-field-data-nascita-0-value-wrapper {
-	clear: none;
-}
-
-.mandataria #edit-field-mandataria-dell-ati-0-value-wrapper {
-	clear: left;
-}
-
-.mandataria #dependent-fields-controller {
-	display: inline;
-	clear: none;
-}
-
-.mandataria #edit-field-cod-fis-mandataria-0-value-wrapper {
-	clear: left;
-}
-
-.mandataria #edit-field-dati-cciaa-0-value {
-	width: 160px;
 }
 
 
