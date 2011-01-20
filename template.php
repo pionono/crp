@@ -38,19 +38,19 @@ function crp_theme($existing, $type, $theme, $path) {
         'template' => 'node-profile-edit'
     ),*/
 
-    'soggetto_node_form' => array(
+   /* 'soggetto_node_form' => array(
         'arguments' => array('form' => NULL),
         'template' => 'node-soggetto-edit'
-    ),
+    ),*/
 
     'user_login' => array(
         'arguments' => array('form' => NULL),
         'template' => 'user-login'
     ),
-    'page_node_form' => array(
+   /* 'page_node_form' => array(
         'arguments' => array('form' => NULL),
         'template' => 'node-page-edit'
-    ),
+    ),*/
   );
 }
 
